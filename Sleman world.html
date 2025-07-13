@@ -8,8 +8,36 @@
                          <h1 style="color: blue; font-size: 46px;">Sleman World</h1>
                     <p style="color: red">This is my first webpage </p>
                     <p style="color: green"> my name is Sleman </p>
-<img src="sleman.JPG"/>
-ue
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rotating Image</title>
+  <style>
+    .rotating-picture {
+      width: 200px;
+      animation: rotateImage 4s linear infinite;
+    }
+
+    @keyframes rotateImage {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="sleman.JPG" class="rotating-picture" alt="Rotating Image">
+
+
 
                    
            </body>
